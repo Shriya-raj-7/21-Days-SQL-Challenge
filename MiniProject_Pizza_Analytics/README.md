@@ -37,7 +37,7 @@ The following CSV files are used in this project:
 4. Check for pizzas missing a price (`IS NULL`).  
 
 ### 🖼 Screenshot – Phase 1  
-![Phase 1 Screenshot](./Phase_1_Foundation_Inspection.png)
+![Phase 1 Screenshot](./Phase_1_Foundation_&_Inspection.png)
 
 ---
 
@@ -50,7 +50,7 @@ The following CSV files are used in this project:
 6. Orders on `'2015-02-15'` or placed after 8 PM.  
 
 ### 🖼 Screenshot – Phase 2  
-![Phase 2 Screenshot](./Phase_2_Filtering_Exploration.png)
+![Phase 2 Screenshot](./Phase_2_Filtering_&_Exploration.png)
 
 ---
 
