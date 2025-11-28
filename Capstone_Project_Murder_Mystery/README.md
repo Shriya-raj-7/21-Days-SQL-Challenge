@@ -19,11 +19,6 @@ This project allowed me to apply SQL concepts such as:
 - Common Table Expressions (CTEs)  
 - Logical reasoning & problem-solving  
 
-At the end of the analysis, I submitted:
-
-- All **SQL queries**  
-- A final **“Case Solved”** conclusion  
-
 ---
 
 ## 🕵️ Investigation Steps & Findings
@@ -34,11 +29,11 @@ At the end of the analysis, I submitted:
 ### 🔎 2. Who claimed to be somewhere else but was not?
 
 📸 **Screenshot:**  
-![CEO Office Entry & False Alibi](./who_entered_ceo_office_false_alibi.png)
+![CEO Office Entry & False Alibi](./who_entered_ceo_office_%26_false_alibi.png)
 
 #### ➡️ Findings:
 - **David Kumar** entered the CEO Office between **20:50–21:00**  
-- He falsely claimed to be in the Server Room, but keycard logs disproved his alibi  
+- He falsely claimed to be in the Server Room, but keycard logs proved otherwise  
 
 ---
 
@@ -46,10 +41,10 @@ At the end of the analysis, I submitted:
 ### 🧪 4. What evidence was found at the crime scene?
 
 📸 **Screenshot:**  
-![Calls & Evidence](./calls_evidence_scene.png)
+![Calls & Evidence](./calls_%26_evidence_at_scene.png)
 
 #### ➡️ Findings:
-- A **suspicious phone call at 20:55** involved **David Kumar**  
+- A **suspicious call at 20:55** involved **David Kumar**  
 - Evidence found at the CEO Office:
   - Fingerprints on the desk  
   - A keycard swipe mismatch  
@@ -58,10 +53,9 @@ At the end of the analysis, I submitted:
 
 ## 🧩 5. Identify the Killer — Final Combined Analysis
 
-📸 **Screenshots:**
-
-![Combined Analysis Part 1](./combined_ctes_part1.png)  
-![Combined Analysis Part 2](./combined_ctes_part2.png)
+📸 **Screenshots:**  
+![Combined Analysis Part 1](./combined_analysis_ctes_part_1.png)  
+![Combined Analysis Part 2](./combined_analysis_ctes_part_2.png)
 
 ---
 
@@ -76,9 +70,13 @@ At the end of the analysis, I submitted:
 - He was present **inside the CEO Office** during the crime window (20:50–21:00)  
 - He provided a **false alibi**  
 - He made/received a **phone call** during the incident  
-- **Physical evidence** matched his presence (fingerprints, keycard mismatch)
+- **Physical evidence** matched his presence  
 
 By combining all evidence, I conclusively identified **David Kumar** as the killer.
 
 ---
+
+
+
+
 
