@@ -1,62 +1,95 @@
 # 🕵️‍♀️ SQL Murder Mystery — Solved Case Report
 
-Welcome to my SQL Murder Mystery mini-project!
-I solved a fictional murder case using SQL by analysing keycard logs, alibis, phone calls, and evidence found at the crime scene.
-This README includes the description of each investigation step along with screenshots of results. 🔍✨
+## 📘 Project Overview
 
-🔎 1. Who entered the CEO’s Office close to the time of the murder?
-🔎 2. Who claimed to be somewhere else but was not?
+In this capstone project, I took on the role of a **Lead Data Analyst** investigating the mysterious death of the CEO of **TechNova Inc.**  
+My objective was to utilise SQL to analyse multiple datasets — including **keycard logs**, **phone records**, **alibis**, and **crime-scene evidence** — to determine:
 
-📸 Screenshot:
-who_entered_ceo_office_&_false_alibi.png
+- **Who committed the crime**
+- **Where it occurred**
+- **When it happened**
+- **How it was carried out**
 
-➡️ Findings:
+This project allowed me to apply a wide range of SQL concepts such as:
 
-David Kumar entered the CEO Office between 20:50–21:00.
+- Joins  
+- Subqueries  
+- Filters  
+- Aggregations  
+- Common Table Expressions (CTEs)  
+- Logical reasoning & problem-solving  
 
-He also gave a false alibi, claiming he was in the Server Room while keycard logs prove otherwise.
+At the end of the analysis, I compiled:
 
-📞 3. Who made or received calls around 20:50–21:00?
-🧪 4. What evidence was found at the crime scene?
+- All **SQL queries** used  
+- A final **“Case Solved” conclusion** identifying the culprit  
 
-📸 Screenshot:
-calls_&_evidence_at_scene.png
+---
 
-➡️ Findings:
+## 🕵️ Investigation Steps & Findings
 
-A suspicious call happened at 20:55, involving David Kumar.
+### 🔎 1. Who entered the CEO’s Office close to the time of the murder?
 
-Evidence like fingerprints and keycard mismatch was found at the CEO Office shortly after the incident.
+### 🔎 2. Who claimed to be somewhere else but was not?
 
-🧩 5. Identify the killer (final combined analysis)
+📸 **Screenshot:**  
+`who_entered_ceo_office_&_false_alibi.png`
 
-To solve the case, I combined:
+#### ➡️ Findings:
 
-presence at the CEO’s Office during the crime window
+- **David Kumar** entered the CEO Office between **20:50–21:00**.  
+- He gave a **false alibi**, claiming he was in the Server Room, while keycard logs proved otherwise.
 
-false alibi check
+---
 
-call activity
+### 📞 3. Who made or received calls around 20:50–21:00?
 
-evidence found at the scene
+### 🧪 4. What evidence was found at the crime scene?
 
-📸 Screenshots:
-combined_analysis_ctes_part_1.png
-combined_analysis_ctes_part_2.png
+📸 **Screenshot:**  
+`calls_&_evidence_at_scene.png`
 
-➡️ Final Result:
+#### ➡️ Findings:
 
-killer
-David Kumar
-🧠 How I arrived at the conclusion
+- A **suspicious call at 20:55** was linked to **David Kumar**.  
+- Evidence found at the CEO Office included:
+  - Fingerprints on the desk  
+  - A keycard swipe mismatch  
 
-The suspect was physically present inside the CEO Office at the critical time.
+---
 
-He provided a false alibi, which contradicts the keycard logs.
+## 🧩 5. Identify the Killer — Final Combined Analysis
 
-A phone call made by him during the crime window adds to suspicious behaviour.
+To identify the killer, I combined all key clues:
 
-Evidence at the crime scene aligns with his presence and movements.
+- Presence at the CEO’s Office during the crime window  
+- Verification of false alibi  
+- Call activity during the incident  
+- Physical evidence found at the scene  
 
-Combining all factors clearly identifies David Kumar as the killer.
+📸 **Screenshots:**  
+`combined_analysis_ctes_part_1.png`  
+`combined_analysis_ctes_part_2.png`
+
+---
+
+## 🏁 **Final Conclusion — Case Solved**
+
+### 🔪 **Killer Identified: David Kumar**
+
+---
+
+## 🧠 How I Reached the Conclusion
+
+- The suspect was **inside the CEO Office** during the murder window (20:50–21:00).  
+- He provided a **false alibi**, claiming he was in the Server Room.  
+- His **phone call activity** coincided with the time of the murder.  
+- **Physical evidence** (fingerprints + keycard mismatch) matched his presence.  
+
+By combining all these clues, I conclusively identified **David Kumar** as the killer.
+
+---
+
+
+
 
